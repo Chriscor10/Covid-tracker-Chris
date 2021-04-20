@@ -1,4 +1,3 @@
-let value = "New Jersey"
 
 function takedata(value) {
    
@@ -20,5 +19,7 @@ fetch(`https://corona.lmao.ninja/v2/states/${value}?yesterday=`, {
  
 const searchbox = document.getElementById ('search')
 const  submitbtn = document.getElementById ('submit-button')
-submitbtn.addEventListener ('click', takedata(searchbox.value))
-
+submitbtn.addEventListener ('click', (e) => { 
+    e.preventDefault()
+  takedata(searchbox.value)
+})
