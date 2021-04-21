@@ -46,6 +46,18 @@ const nHeader5 = document.createElement('h3')
 nHeader5.innerHTML = ("Today's Deaths")
 document.body.append(nHeader5)
 
+const info4 = document.createElement('h4')
+info4.innerHTML = (data.todayDeaths)
+document.body.append(info4)
+
+const nHeader6 = document.createElement('h3')
+nHeader6.innerHTML = ("Active Cases")
+document.body.append(nHeader6)
+
+const info5 = document.createElement('h4')
+info5.innerHTML = (data.active)
+document.body.append(info5)
+
 
 })
 }   
