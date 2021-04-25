@@ -56,4 +56,20 @@ h1 {
       height: auto; 
     }
 
+   p{
+    text-align: center;
+       font-weight: bold;
+       color: black;
+       }
    
+ul{
+  text-align: center;
+     font-weight: bold;
+     color: black;
+     }
+
+     li{
+      text-align: center;
+         font-weight: bold;
+         color: black;
+         }
